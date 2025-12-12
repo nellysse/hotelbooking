@@ -53,17 +53,8 @@ Users can add, delete, and update reservations with guest details, room number, 
   - Added colorful buttons for better UX.  
   - Combined check-in/out into one "Period" column for simplicity.  
 
-- **Challenges**:  
-  - Handling exceptions when resources were missing.  
-  - Ensuring IDs renumber correctly after deletions.  
-
 ---
 
-## 🚀 Improvements
-- Add database persistence (MySQL/PostgreSQL).  
-- Export reservations to CSV/Excel.  
-- Add search/filter functionality.  
-- Input/output file usage for saving/loading reservations offline.  
 
 ---
 ## 📸 Screenshots
