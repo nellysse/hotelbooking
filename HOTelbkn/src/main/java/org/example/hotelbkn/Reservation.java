@@ -40,7 +40,7 @@ public class Reservation {
     public void setCheckOutDate(LocalDate checkOutDate) { this.checkOutDate = checkOutDate; }
 
     public String getPeriod() {
-        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("DD.MM.YYYY");
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         if (checkInDate != null && checkOutDate != null) {
             return fmt.format(checkInDate) + " - " + fmt.format(checkOutDate);
         } else if (checkInDate != null) {
@@ -50,3 +50,4 @@ public class Reservation {
         }
     }
 }
+
