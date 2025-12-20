@@ -57,8 +57,9 @@ Users can add, delete, and update reservations with guest details, room number, 
 
 
 ---
-## 📸 Screenshots
-<img width="1131" height="795" alt="Снимок экрана 2025-12-13 020101" src="https://github.com/user-attachments/assets/1bd69f28-fc9e-4008-8267-d9c5adfe6a00" />
+## 📸 Screenshot
+
+![image](https://github.com/user-attachments/assets/518ecbbe-e345-4a3a-884f-e87be377fcbc)
 
 
 ---
