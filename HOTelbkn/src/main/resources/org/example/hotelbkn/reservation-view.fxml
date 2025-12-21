@@ -26,16 +26,28 @@
         <Label text="Check-out date:"/>
         <DatePicker fx:id="checkOutDatePicker"/>
 
-        <HBox alignment="CENTER" spacing="10.0">
+        <!-- Кнопки разделены на два ряда -->
+        <VBox alignment="CENTER" spacing="10.0">
           <children>
-            <Button text="Book" onAction="#handleReserveButton"
-                    style="-fx-background-color: #5cb85c; -fx-text-fill: white; -fx-font-weight: bold;"/>
-            <Button text="Delete" onAction="#handleDeleteButton"
-                    style="-fx-background-color: #d9534f; -fx-text-fill: white; -fx-font-weight: bold;"/>
-            <Button text="Update" onAction="#handleLoadAll"
-                    style="-fx-background-color: #4a90e2; -fx-text-fill: white; -fx-font-weight: bold;"/>
+            <HBox alignment="CENTER" spacing="10.0">
+              <children>
+                <Button text="Book" onAction="#handleReserveButton"
+                        style="-fx-background-color: #5cb85c; -fx-text-fill: white; -fx-font-weight: bold;"/>
+                <Button text="Delete" onAction="#handleDeleteButton"
+                        style="-fx-background-color: #d9534f; -fx-text-fill: white; -fx-font-weight: bold;"/>
+              </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="10.0">
+              <children>
+                <Button text="Update" onAction="#handleLoadAll"
+                        style="-fx-background-color: #4a90e2; -fx-text-fill: white; -fx-font-weight: bold;"/>
+                <Button text="Save" onAction="#handleSaveButton"
+                        style="-fx-background-color: #f0ad4e; -fx-text-fill: white; -fx-font-weight: bold;"/>
+              </children>
+            </HBox>
           </children>
-        </HBox>
+        </VBox>
       </children>
       <padding><Insets top="10" left="10" right="10" bottom="10"/></padding>
     </VBox>
