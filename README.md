@@ -99,7 +99,10 @@ json
 
 JSON‑формат делает проект современным и удобным для демонстрации.
 ## СКРИН С ВНЕСЕННЫМИ ИЗМЕНЕНИЯМИ
-
+# interface
 <img width="1915" height="1016" alt="Снимок экрана 2025-12-21 172755" src="https://github.com/user-attachments/assets/8a38b10e-eddd-46fa-bbeb-e8f55dd336e9" />
+
+# added code
+<img width="939" height="631" alt="Снимок экрана 2025-12-21 172144" src="https://github.com/user-attachments/assets/c343d2e3-b119-4895-ae76-f60701102c56" />
 
 **Very nice project made by me**
